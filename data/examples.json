@@ -1,0 +1,565 @@
+[
+	{
+		"id": "http://zotero.org/groups/2711275/items/Q54MJZHY",
+		"type": "article-journal",
+		"abstract": "nochmal zu lesen; Einordnung als Realist mgl.? Schweirig zu lesen\n\nWassermann-Connection; SPD; in gesammelte Schriften",
+		"container-title": "Neue Juristische Wochenschrift",
+		"journalAbbreviation": "NJW",
+		"page": "1273-1284",
+		"title": "Gesetzesrecht und Richterrecht",
+		"author": [
+			{
+				"family": "Arndt",
+				"given": "Adolf"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1963"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/VCCDGMNS",
+		"type": "article-journal",
+		"container-title": "Juristische Rundschau",
+		"DOI": "10.1515/juru.1926.1926.11.485",
+		"ISSN": "1612-7064",
+		"issue": "11",
+		"journalAbbreviation": "JR",
+		"language": "de",
+		"page": "485-489",
+		"publisher": "De Gruyter",
+		"section": "Juristische Rundschau",
+		"source": "www-degruyter-com.ezproxy.lhlt.mpg.de",
+		"title": "Die Fürstenabfindung",
+		"URL": "https://www.degruyter.com/document/doi/10.1515/juru.1926.1926.11.485/html",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Bredt",
+				"given": "Johann Victor"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1926"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/NH7QIYVA",
+		"type": "article-journal",
+		"container-title": "Zeitschrift für öffentliche und gemeinwirtschaftliche Unternehmen",
+		"ISSN": "0344-9777",
+		"issue": "2",
+		"journalAbbreviation": "ZögU",
+		"page": "141-158",
+		"publisher": "Nomos Verlagsgesellschaft mbH",
+		"source": "JSTOR",
+		"title": "Ansätze einer gemeinwirtschaftlichen Theorie öffentlicher Unternehmen in der Weimarer Republik",
+		"URL": "http://www.jstor.org/stable/20762613",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Ambrosius",
+				"given": "Gerold"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					9
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1980"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/6Q8N6V58",
+		"type": "article-journal",
+		"container-title": "Archiv für die civilistische Praxis",
+		"ISSN": "0003-8997",
+		"issue": "1",
+		"journalAbbreviation": "AcP",
+		"page": "1-47",
+		"title": "Generalklausel und Richterrecht",
+		"volume": "201",
+		"author": [
+			{
+				"family": "Ohly",
+				"given": "Ansgar"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/NNL3BW8U",
+		"type": "chapter",
+		"abstract": "lies Stellen bei Picker nach",
+		"container-title": "Festschrift für Fritz von Hippel zum 70. Geburtstag",
+		"note": "container-title-short: FS Hippel",
+		"page": "95-130",
+		"publisher-place": "Tübingen",
+		"title": "Richterrecht, Gerichtsgebrauch und Gewohnheitsrecht",
+		"author": [
+			{
+				"family": "Esser",
+				"given": "Josef"
+			}
+		],
+		"editor": [
+			{
+				"family": "Esser",
+				"given": "Josef"
+			},
+			{
+				"family": "Thieme",
+				"given": "Hans"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1967"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/EFSIEU6J",
+		"type": "chapter",
+		"abstract": "Schröder (Diskussion zu Auer) sowie HRG Artikel nennt Liver den ersten, der Rechtserkenntnisquelle nennt --< das stimmt nicht, findet sich auch woanders\n\nS. 69 in den gesammten Schriften ist relevant",
+		"container-title": "Privatrechtliche Abhandlungen. Festgabe zum 70. Geburtstag des Verfassers am 21. August 1972",
+		"ISBN": "978-3-7272-9217-0",
+		"note": "container-title-short: FG Liver",
+		"page": "31-83",
+		"publisher": "Stämpfli",
+		"title": "Der Begriff der Rechtsquelle (1955)",
+		"author": [
+			{
+				"family": "Liver",
+				"given": "Peter"
+			}
+		],
+		"editor": [
+			{
+				"family": "Merz",
+				"given": "Hans"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1972"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/6YEQN374",
+		"type": "book",
+		"edition": "2",
+		"publisher": "Mohr Siebeck",
+		"publisher-place": "Tübingen",
+		"title": "Festschrift für Fritz von Hippel zum 70. Geburtstag,",
+		"title-short": "FS Hippel",
+		"editor": [
+			{
+				"family": "Esser",
+				"given": "Josef"
+			},
+			{
+				"family": "Thieme",
+				"given": "Hans"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1967"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/LWXF7J65",
+		"type": "chapter",
+		"call-number": "346.43",
+		"container-title": "Historisch-kritischer Kommentar zum BGB",
+		"ISBN": "978-3-16-147909-0",
+		"language": "ger",
+		"publisher": "Mohr Siebeck",
+		"publisher-place": "Tübingen",
+		"source": "BnF ISBN",
+		"title": "§ 138",
+		"volume": "1",
+		"editor": [
+			{
+				"family": "Schmoeckel",
+				"given": "Mathias"
+			},
+			{
+				"family": "Rückert",
+				"given": "Joachim"
+			},
+			{
+				"family": "Zimmermann",
+				"given": "Reinhard"
+			}
+		],
+		"author": [
+			{
+				"family": "Haferkamp",
+				"given": "Hans-Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2003"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/LVTSRXQI",
+		"type": "chapter",
+		"call-number": "KF273 .E38 1993",
+		"container-title": "Der Einfluß deutscher Emigranten auf die Rechtsentwicklung in den USA und in Deutschland. Vorträge und Referate des Bonner Symposions im September 1991",
+		"ISBN": "978-3-16-146080-7",
+		"page": "33–56",
+		"publisher": "J.C.B. Mohr (Paul Siebeck)",
+		"publisher-place": "Tübingen",
+		"source": "Library of Congress ISBN",
+		"title": "Otto Kirchheimer: Critic of the Administration of Justice",
+		"editor": [
+			{
+				"family": "Lutter",
+				"given": "Marcus"
+			},
+			{
+				"family": "Stiefel",
+				"given": "Ernst C."
+			},
+			{
+				"family": "Hoeflich",
+				"given": "Michael H."
+			}
+		],
+		"author": [
+			{
+				"family": "Arzt",
+				"given": "Donna E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1993"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/IFUJ53I4",
+		"type": "book",
+		"abstract": "Most people understand property as something that is owned, a means of creating individual wealth. But in \"Commodity and Propriety,\" the first full-length history of the meaning of property, Gregory Alexander uncovers in American legal writing a competing vision of property that has existed alongside the traditional conception. Property, Alexander argues, has also been understood as \"proprietary,\" a mechanism for creating and maintaining a properly ordered society. This view of property has even operated in periodsOCosuch as the second half of the nineteenth centuryOCowhen market forces seemed to dominate social and legal relationships. In demonstrating how the understanding of property as a private basis for the public good has competed with the better-known market-oriented conception, Alexander radically rewrites the history of property, with significant implications for current political debates and recent Supreme Court decisions.\"",
+		"ISBN": "978-0-226-01352-7",
+		"publisher": "University of Chicago Press",
+		"publisher-place": "Chicago",
+		"source": "ProQuest Ebook Central",
+		"title": "Commodity and Propriety: Competing Visions of Property in American Legal Thought, 1776-1970",
+		"title-short": "Commodity and Propriety",
+		"author": [
+			{
+				"family": "Alexander",
+				"given": "Gregory S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1998"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/PSN5TLTD",
+		"type": "book",
+		"call-number": "KK5569 .S76 1988",
+		"ISBN": "978-3-406-37002-1",
+		"publisher": "Beck",
+		"publisher-place": "München",
+		"title": "Geschichte des öffentlichen Rechts in Deutschland: Weimar und so weiter 1914-1945",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Stolleis",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1999"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/9YH8M9J4",
+		"type": "book",
+		"edition": "2. Auflage",
+		"ISBN": "978-3-406-70428-4",
+		"number-of-pages": "1 Online-Ressourcen",
+		"publisher": "C.H.Beck",
+		"publisher-place": "München",
+		"title": "Geschichte des öffentlichen Rechts in Deutschland: Reichspublizistik und Policeywissenschaft 1600-1800",
+		"title-short": "Geschichte des öffentlichen Rechts in Deutschland Bd. 1",
+		"URL": "https://doi.org/10.17104/9783406704284",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Stolleis",
+				"given": "Michaeldatl"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/JG387DNA",
+		"type": "chapter",
+		"abstract": "Zuerst erschienen: in Sitzungsbereichte der Wissenschaftlichen Gesellschaft an der Johann-Wolfgang-Goethe-Universität Frankfurt/Main, 6.3, Wiesbaden 1968",
+		"container-title": "Gesammelte Ausätze zu Rechtsgeschichte, Rechtsphilosphie und Zivilrecht: 1947-1975",
+		"note": "status: zuerst erschienen: in Sitzungsbereichte der Wissenschaftlichen Gesellschaft an der Johann-Wolfgang-Goethe-Universität Frankfurt/Main, 6.3, Wiesbaden 1968",
+		"publisher": "Vittorio Klostermann",
+		"publisher-place": "Frankfurt am Main",
+		"title": "Die ursprüngliche Einheit der europäischen Rechtswissenschaft",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Coing",
+				"given": "Helmut"
+			}
+		],
+		"editor": [
+			{
+				"family": "Simon",
+				"given": "Dieter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1982"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/5YJ7UAQD",
+		"type": "book",
+		"call-number": "KF4695 .T5 2001",
+		"ISBN": "978-1-58477-122-7",
+		"number-of-pages": "662",
+		"publisher": "The Lawbook Exchange, Ltd.",
+		"publisher-place": "Union, N.J",
+		"source": "Library of Congress ISBN",
+		"title": "A Treatise on the Limitations of Police Power in the United States. Considered from both a Civil and Criminal Standpoint",
+		"title-short": "A Treatise on the Limitations of Police Power in the United States",
+		"author": [
+			{
+				"family": "Tiedeman",
+				"given": "Christopher G."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		},
+		"original-date": {
+			"date-parts": [
+				[
+					"1886"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/UNRF2EAU",
+		"type": "chapter",
+		"container-title": "J. v. Staudingers Kommentar zum Bürgerlichen Gesetzbuch und dem Einführungsgesetze.",
+		"title": "§ 138",
+		"editor": [
+			{
+				"family": "Brändl",
+				"given": "Franz"
+			},
+			{
+				"family": "Coing",
+				"given": "Helmut"
+			}
+		],
+		"author": [
+			{
+				"family": "Coing",
+				"given": "Helmut"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1953"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/U2NYQRIL",
+		"type": "book",
+		"ISBN": "3-406-48960-5",
+		"number-of-volumes": "4",
+		"publisher": "Beck",
+		"publisher-place": "München",
+		"title": "Geschichte des öffentlichen Rechts in Deutschland. Weimarer Republik und Nationalsozialismus",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Stolleis",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/IBLZA4KM",
+		"type": "article-journal",
+		"container-title": "Der Staat",
+		"ISSN": "0038-884X",
+		"issue": "3",
+		"page": "399-423",
+		"publisher": "Duncker & Humblot GmbH",
+		"source": "JSTOR",
+		"title": "Der Methodenstreit als politischer Generationenkonflikt. Ein Angebot zur Deutung der Weimarer Staatsrechtslehre",
+		"URL": ",",
+		"volume": "43",
+		"author": [
+			{
+				"family": "Möllers",
+				"given": "Christoph"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/EUMWU9UB",
+		"type": "article-journal",
+		"container-title": "Archiv des öffentlichen Rechts",
+		"journalAbbreviation": "AöR",
+		"language": "ger",
+		"page": "161–209",
+		"title": "Der Methoden- und Richtungsstreit. Zur Grundlagendiskussion der Weimarer Staatsrechtslehre",
+		"volume": "102",
+		"author": [
+			{
+				"family": "Friedrich",
+				"given": "Manfred"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1977"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/7DIXLW2G",
+		"type": "book",
+		"abstract": "Common Past Theorie: Aufgabe der RW",
+		"publisher-place": "Tübingen",
+		"title": "Die Lage der europäischen Rechtswissenschaft",
+		"author": [
+			{
+				"family": "Schmitt",
+				"given": "Carl"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1950"
+				]
+			]
+		}
+	}
+]
