@@ -605,5 +605,36 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/MULTIAUTHOR2026",
+		"type": "book",
+		"publisher-place": "Kleinmachnow",
+		"title": "Beispielwerk mit vier Autor:innen",
+		"author": [
+			{
+				"family": "Nachname1",
+				"given": "Vorname1"
+			},
+			{
+				"family": "Nachname2",
+				"given": "Vorname2"
+			},
+			{
+				"family": "Nachname3",
+				"given": "Vorname3"
+			},
+			{
+				"family": "Nachname4",
+				"given": "Vorname4"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
+		}
 	}
 ]
