@@ -241,7 +241,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography subsequent-author-substitute="ders.">
+  <bibliography>
     <sort>
       <key macro="author"/>
       <key variable="issued"/>
