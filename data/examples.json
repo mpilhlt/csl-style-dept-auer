@@ -543,6 +543,28 @@
 		}
 	},
 	{
+		"id": "http://zotero.org/groups/2711275/items/WEBERDJZ1935",
+		"type": "article-journal",
+		"container-title": "Deutsche Juristen-Zeitung",
+		"journalAbbreviation": "DJZ",
+		"page": "659-665",
+		"medium": "column",
+		"title": "Eigentum und öffentliche Verwaltung im neuen Reich",
+		"author": [
+			{
+				"family": "Weber",
+				"given": "Werner"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1935"
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/groups/2711275/items/7DIXLW2G",
 		"type": "book",
 		"abstract": "Common Past Theorie: Aufgabe der RW",

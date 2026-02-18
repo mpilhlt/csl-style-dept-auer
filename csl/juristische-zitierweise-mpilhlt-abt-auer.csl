@@ -257,7 +257,17 @@
                 <text variable="container-title" suffix=" "/>
                 <date date-parts="year" form="text" variable="issued"/>
               </group>
-              <text variable="page" prefix="S. "/>
+              <group>
+                <choose>
+                  <if variable="medium">
+                    <text term="column" form="short" suffix=" "/>
+                  </if>
+                  <else>
+                    <text term="page" form="short" suffix=" "/>
+                  </else>
+                </choose>
+                <text variable="page"/>
+              </group>
               <text macro="URL" font-style="italic"/>
             </group>
           </if>

@@ -234,3 +234,56 @@ This style uses `near-note-distance="0"`, which means the "near-note" position i
 
 ### Testing ibid behavior
 To test ibid/near-note behavior, the render script processes citations sequentially as footnotes. Cite the same item twice in a row in `data/examples.json` (duplicate an entry with the same `id`) to see ibid output.
+
+### Testing with locator types (page vs. column)
+
+CSL supports different locator types for pinpoint references. The `label` field on a cite-item specifies the type (e.g., "page", "column", "chapter"). Common locator labels include:
+
+| Label | German term | Use case |
+|---|---|---|
+| `page` | Seite (S.) | Default for most citations |
+| `column` | Spalte (Sp.) | Used for some legal journals |
+| `chapter` | Kapitel | Book chapters |
+| `section` | Abschnitt | Document sections |
+| `paragraph` | Absatz | Legal documents |
+| `verse` | Vers | Religious texts |
+| `line` | Zeile | Poetry, plays |
+
+**Important:** The `label` field is for cite-items (individual citations with locators), not for the item's `page` field. The render script's `--label` flag can override the default "page" label for testing:
+
+```bash
+# Test citation with column locator instead of page
+node scripts/render.js --ids "http://zotero.org/groups/2711275/items/Q54MJZHY" --label column
+
+# Test with paragraph locator
+node scripts/render.js --ids "http://zotero.org/groups/2711275/items/PSN5TLTD" --label paragraph
+```
+
+For bibliography entries that use column pagination (e.g., older legal journals), the item should include a marker. Use the `medium` field set to `"column"`:
+
+```json
+{
+  "id": "weber-djz-1935",
+  "type": "article-journal",
+  "container-title": "Deutsche Juristen-Zeitung",
+  "page": "659-665",
+  "medium": "column",
+  "title": "Eigentum und öffentliche Verwaltung im neuen Reich",
+  "author": [{"family": "Weber", "given": "Werner"}],
+  "issued": {"date-parts": [["1935"]]}
+}
+```
+
+In the CSL style, check for the `medium` variable to decide between "S." and "Sp.":
+
+```xml
+<choose>
+  <if variable="medium">
+    <text term="column" form="short" suffix=" "/>
+  </if>
+  <else>
+    <text term="page" form="short" suffix=" "/>
+  </else>
+</choose>
+<text variable="page"/>
+```
