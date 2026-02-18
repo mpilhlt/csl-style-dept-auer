@@ -123,7 +123,7 @@
 	{
 		"id": "http://zotero.org/groups/2711275/items/NNL3BW8U",
 		"type": "chapter",
-		"abstract": "lies Stellen bei Picker nach",
+		"abstract": "",
 		"container-title": "Festschrift für Fritz von Hippel zum 70. Geburtstag",
 		"note": "container-title-short: FS Hippel",
 		"page": "95-130",
@@ -580,6 +580,28 @@
 			"date-parts": [
 				[
 					"1950"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/TRIEPEL1929",
+		"type": "article-newspaper",
+		"container-title": "Der Tag",
+		"issue": "127",
+		"title": "Die Vermögensauseinandersetzung zwischen dem preußischen Staat und dem Königlichen Hause",
+		"author": [
+			{
+				"family": "Triepel",
+				"given": "Heinrich"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1929",
+					7,
+					9
 				]
 			]
 		}

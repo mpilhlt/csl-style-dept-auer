@@ -224,6 +224,18 @@
             <text variable="title-short" prefix=" "/>
           </group>
         </else-if>
+        <else-if type="article-newspaper" match="any">
+          <group delimiter=", ">
+            <text macro="author-note"/>
+            <text variable="title"/>
+            <text variable="container-title"/>
+            <group delimiter=" ">
+              <text term="issue" form="short"/>
+              <text variable="issue"/>
+            </group>
+            <date form="text" variable="issued"/>
+          </group>
+        </else-if>
         <else-if type="webpage" match="any">
           <group delimiter=", ">
             <text macro="author-note"/>
