@@ -636,5 +636,33 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/WOLFF1920",
+		"type": "chapter",
+		"container-title": "Welches Interesse hat die Allgemeinheit daran, daß bei der Auflösung der Fideikommisse in Preußen die Agnatenansprüche berücksichtigt werden? (Agnatenrecht und Bevorzugungsklausel)",
+		"container-title-short": "Agnatenrechte und Bevorzugungsklausel",
+		"publisher-place": "Berlin/Leipzig",
+		"title": "Rechtsgutachten über die Frage: Ob es geboten sei, bei der bevorstehenden Fideikommißauflösung die Agnatenrechte zu berücksichtigen, und in welcher Weise (Beilage)",
+		"title-short": "Rechtsgutachten",
+		"author": [
+			{
+				"family": "Wolff",
+				"given": "Martin"
+			}
+		],
+		"editor": [
+			{
+				"family": "Friedmann",
+				"given": "Alfred"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1920"
+				]
+			]
+		}
 	}
 ]

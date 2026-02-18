@@ -152,14 +152,14 @@
         <else-if type="chapter">
           <group delimiter=", ">
             <text macro="author-note"/>
-            <text variable="title"/>
+            <text variable="title" form="short"/>
             <group delimiter=": ">
               <text term="in"/>
               <group>
-                <names variable="editor" font-style="normal" delimiter=" " suffix=" (Hsrg.),">
+                <names variable="editor" font-style="normal" delimiter=" ">
                   <name form="long" font-style="normal" delimiter="/" initialize-with="."/>
                 </names>
-                <text variable="container-title" form="short" prefix=" " suffix=", "/>
+                <text variable="container-title" form="short" prefix=", " suffix=", "/>
                 <date date-parts="year" form="text" variable="issued"/>
                 <choose>
                   <if match="any" variable="original-date">
@@ -168,7 +168,7 @@
                 </choose>
               </group>
             </group>
-            <number prefix="S. " variable="page-first"/>
+            <number prefix="S. " variable="page-first"/>
             <text variable="locator"/>
           </group>
         </else-if>
@@ -346,7 +346,7 @@
               <group delimiter=": ">
                 <text term="in"/>
                 <group delimiter=", ">
-                  <names variable="editor" font-style="normal" suffix=" (Hrsg.)">
+                  <names variable="editor" font-style="normal">
                     <name delimiter="/"/>
                   </names>
                   <text variable="container-title"/>
