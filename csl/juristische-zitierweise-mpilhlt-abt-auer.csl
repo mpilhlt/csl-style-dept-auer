@@ -47,7 +47,10 @@
     <names variable="author" font-style="italic">
       <name form="short" font-style="italic" delimiter="/" et-al-min="3" et-al-use-first="1" sort-separator=""/>
       <substitute>
-        <names variable="editor" font-style="italic"/>
+        <names variable="editor" font-style="italic">
+          <name form="short" font-style="italic" delimiter="/" et-al-min="3" et-al-use-first="1" sort-separator=""/>
+          <label form="short" prefix=" (" suffix=")"/>
+        </names>
       </substitute>
     </names>
   </macro>
