@@ -117,11 +117,14 @@
       <choose>
         <if type="article-journal">
           <group delimiter=", ">
-            <text macro="author-note" font-style="italic"/>
+            <names variable="author" font-style="italic">
+              <name form="long" font-style="italic" delimiter="/" initialize-with="." et-al-min="3" et-al-use-first="1"/>
+            </names>
+            <text variable="title" font-style="italic"/>
             <text macro="inarticle"/>
-            <group delimiter=" ">
+            <group delimiter=", ">
               <text variable="page-first"/>
-              <text variable="locator" prefix="(" suffix=")"/>
+              <text variable="locator"/>
             </group>
           </group>
         </if>
