@@ -93,6 +93,27 @@ node scripts/render.js --ids "your-item-id"
 
 ---
 
+## Style Features
+
+### Column Pagination (Spaltenzählung)
+
+Some older German legal journals use column numbers instead of page numbers. To cite an article with column pagination:
+
+1. Enter the column range in the **Pages** field as usual (e.g., `659-665`)
+2. Add the following line to the **Extra** field in Zotero:
+   ```
+   range-label: column
+   ```
+
+The bibliography will then show "Sp. 659–665" instead of "S. 659–665".
+
+**Example:**
+- Weber, Werner, *Eigentum und öffentliche Verwaltung im neuen Reich*, Deutsche Juristen-Zeitung 1935, **Sp. 659–665**.
+
+This works via citeproc-js's "cheater syntax" which sets CSL variables from the `note` field (Zotero's Extra field).
+
+---
+
 ## Documentation
 
 | File | Purpose |
