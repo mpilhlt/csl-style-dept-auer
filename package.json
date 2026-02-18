@@ -1,0 +1,30 @@
+{
+  "name": "csl-style-dept-auer",
+  "version": "1.0.0",
+  "description": "This is a collection of CSL templates for use at the deptartment Marietta Auer at the Max Planck Institute for Legal History and Legal Theory.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "render": "node scripts/render.js",
+    "render:citations": "node scripts/render.js --mode citations",
+    "render:bibliography": "node scripts/render.js --mode bibliography",
+    "render:json": "node scripts/render.js --format json",
+    "test": "node scripts/render.js --format json > /dev/null && echo \"Render OK\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cboulanger/csl-style-dept-auer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cboulanger/csl-style-dept-auer/issues"
+  },
+  "homepage": "https://github.com/cboulanger/csl-style-dept-auer#readme",
+  "dependencies": {
+    "citeproc": "^2.4.63"
+  }
+}
