@@ -42,4 +42,4 @@ When asked to work on a GitHub issue, use `gh` if available. Add the example use
 
 If there is a contradiction in what the issue wants with how the style currently handles things, and the current state is not clearly a bug, do not implement but add a comment that explains the discrepancy and asks for confirmation.
 
-After making sure that the test output matches the desired end result, provide a summary of changes in the issue and close it. 
+After making sure that the test output matches the desired end result, provide a summary of changes in the issue and close it. Provide information that the changes were made by a coding agent.
