@@ -651,7 +651,7 @@
 				"given": "Martin"
 			}
 		],
-		"editor": [
+		"container-author": [
 			{
 				"family": "Friedmann",
 				"given": "Alfred"
@@ -661,6 +661,29 @@
 			"date-parts": [
 				[
 					"1920"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/WOLFF1923",
+		"type": "chapter",
+		"container-title": "Festgabe der Berliner Juristischen Fakultät für Wilhelm Kahl zum Doktorjubiläum am 19. April 1923",
+		"container-title-short": "Festgabe Kahl",
+		"publisher-place": "Tübingen",
+		"title": "Reichsverfassung und Eigentum",
+		"title-short": "Reichsverfassung und Eigentum",
+		"page": "IV/1-IV/30",
+		"author": [
+			{
+				"family": "Wolff",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1923"
 				]
 			]
 		}

@@ -22,6 +22,10 @@
     <terms>
       <term name="accessed">besucht am</term>
       <term name="et-al">et al.</term>
+      <term name="editor" form="short">
+        <single>Hg.</single>
+        <multiple>Hg.</multiple>
+      </term>
     </terms>
   </locale>
   <macro name="author">
@@ -35,7 +39,7 @@
   </macro>
   <macro name="author-note">
     <names variable="author" font-style="italic">
-      <name form="long" font-style="italic" delimiter="/" initialize-with="." et-al-min="3" et-al-use-first="1" name-as-sort-order="all"/>
+      <name form="long" font-style="italic" delimiter="/" initialize-with="." et-al-min="3" et-al-use-first="1"/>
     </names>
   </macro>
   <macro name="locator-with-label">
@@ -124,7 +128,7 @@
             <names variable="author" font-style="italic">
               <name form="long" font-style="italic" delimiter="/" initialize-with="." et-al-min="3" et-al-use-first="1"/>
             </names>
-            <text variable="title" font-style="italic"/>
+            <text variable="title"/>
             <text macro="inarticle"/>
             <group delimiter=", ">
               <text variable="page-first"/>
@@ -155,17 +159,25 @@
             <text variable="title" form="short"/>
             <group delimiter=": ">
               <text term="in"/>
-              <group>
-                <names variable="editor" font-style="normal" delimiter=" ">
-                  <name form="long" font-style="normal" delimiter="/" initialize-with="."/>
+              <group delimiter=", ">
+                <names variable="editor" font-style="normal">
+                  <name form="long" font-style="normal" delimiter="/" initialize-with="." et-al-min="3" et-al-use-first="1"/>
+                  <label form="short" prefix=" (" suffix=")"/>
+                  <substitute>
+                    <names variable="container-author" font-style="normal">
+                      <name form="long" font-style="normal" delimiter="/" initialize-with="." et-al-min="3" et-al-use-first="1"/>
+                    </names>
+                  </substitute>
                 </names>
-                <text variable="container-title" form="short" prefix=", " suffix=", "/>
-                <date date-parts="year" form="text" variable="issued"/>
-                <choose>
-                  <if match="any" variable="original-date">
-                    <date date-parts="year" form="text" variable="original-date" prefix=" (" suffix=")"/>
-                  </if>
-                </choose>
+                <text variable="container-title" form="short"/>
+                <group>
+                  <date date-parts="year" form="text" variable="issued"/>
+                  <choose>
+                    <if match="any" variable="original-date">
+                      <date date-parts="year" form="text" variable="original-date" prefix=" (" suffix=")"/>
+                    </if>
+                  </choose>
+                </group>
               </group>
             </group>
             <number prefix="S. " variable="page-first"/>
@@ -347,7 +359,13 @@
                 <text term="in"/>
                 <group delimiter=", ">
                   <names variable="editor" font-style="normal">
-                    <name delimiter="/"/>
+                    <name delimiter="/" et-al-min="3" et-al-use-first="1"/>
+                    <label form="short" prefix=" (" suffix=")"/>
+                    <substitute>
+                      <names variable="container-author">
+                        <name delimiter="/" et-al-min="3" et-al-use-first="1"/>
+                      </names>
+                    </substitute>
                   </names>
                   <text variable="container-title"/>
                   <text variable="collection-number"/>

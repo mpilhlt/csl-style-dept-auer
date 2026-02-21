@@ -35,3 +35,11 @@ node scripts/render.js --ids "http://zotero.org/groups/2711275/items/PSN5TLTD"  
 ```
 
 Compare the output to what the user asked for. Iterate until it matches.
+
+## GitHub issues
+
+When asked to work on a GitHub issue, use `gh` if available. Add the example used in the issue to the example data to allow 1:1 comparisons of the test output. 
+
+If there is a contradiction in what the issue wants with how the style currently handles things, and the current state is not clearly a bug, do not implement but add a comment that explains the discrepancy and asks for confirmation.
+
+After making sure that the test output matches the desired end result, provide a summary of changes in the issue and close it. 
