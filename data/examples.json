@@ -588,7 +588,8 @@
 		"id": "http://zotero.org/groups/2711275/items/TRIEPEL1929",
 		"type": "article-newspaper",
 		"container-title": "Der Tag",
-		"issue": "127",
+		"volume": "20. Jahrgang",
+		"issue": "Nr. 149, Ausgabe A",
 		"title": "Die Vermögensauseinandersetzung zwischen dem preußischen Staat und dem Königlichen Hause",
 		"author": [
 			{
@@ -687,5 +688,26 @@
 				]
 			]
 		}
-	}
+	},
+	{
+		"id": "http://zotero.org/groups/2711275/items/LX7IKSKV",
+		"type": "book",
+		"edition": "1",
+		"publisher": "Duncker & Humblot",
+		"publisher-place": "Berlin",
+		"title": "Sachenrecht",
+		"author": [
+			{
+				"family": "Wolf",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1910"
+				]
+			]
+		}
+	}	
 ]

@@ -72,7 +72,7 @@
         <group delimiter=" ">
           <number vertical-align="sup" prefix=", " variable="edition"/>
         </group>
-        <date date-parts="year" form="text" variable="issued" prefix=" "/>
+        <date date-parts="year" form="text" variable="issued"/>
       </if>
       <else>
         <date date-parts="year" form="text" variable="issued" prefix=", "/>
