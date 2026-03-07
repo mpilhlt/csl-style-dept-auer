@@ -242,10 +242,6 @@
             <text macro="author-note"/>
             <text variable="title"/>
             <text variable="container-title"/>
-            <group delimiter=" ">
-              <text term="issue" form="short"/>
-              <text variable="issue"/>
-            </group>
             <date form="text" variable="issued"/>
           </group>
         </else-if>
@@ -410,6 +406,16 @@
                 </group>
                 <text variable="title" prefix=", "/>
               </group>
+            </group>
+          </else-if>
+          <else-if type="article-newspaper" match="any">
+            <group delimiter=", ">
+              <text macro="author"/>
+              <text variable="title"/>
+              <text variable="container-title"/>
+              <date form="text" variable="issued"/>
+              <text variable="volume"/>
+              <text variable="issue"/>
             </group>
           </else-if>
           <else-if type="webpage" match="any">
