@@ -36,11 +36,13 @@ node scripts/render.js --ids "http://zotero.org/groups/2711275/items/PSN5TLTD"  
 
 Compare the output to what the user asked for. Iterate until it matches.
 
+**ALWAYS** add the example used in the prompt to the example data in `data/examples.json` to allow 1:1 comparisons of the test output.
+
+**ALWAYS** run `scripts/render.js` for all changes, even for small and obvious ones.
+
 ## GitHub issues
 
 When asked to work on a GitHub issue, use `gh` if available. If you have no write access to the issues, tell the user to close the issue themselves using a proposed comment text.
-
-Add the example used in the issue to the example data to allow 1:1 comparisons of the test output.
 
 If there is a contradiction in what the issue wants with how the style currently handles things, and the current state is not clearly a bug, do not implement but add a comment that explains the discrepancy and asks for confirmation.
 

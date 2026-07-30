@@ -191,6 +191,7 @@ function stripHtml(html) {
   return html
     .replace(/<\/?[a-z][^>]*>/gi, '')
     .replace(/&amp;/g, '&')
+    .replace(/&#38;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
